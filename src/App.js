@@ -11,11 +11,15 @@ import Users from './components/RenderProps/users';
 import CounterState from './components/hooks/counterstate';
 import HookCounterTwo from './components/hooks/HookCounterTwo';
 import HookCounterThree from './components/hooks/HookCounterThree';
+import Data from './components/effect/Data';
+import User from './components/effect/user';
 
 function App() {
   return (
     <div className="App">
-      <HookCounterThree/>
+      <User/>
+      {/* <Data/> */}
+      {/* <HookCounterThree/> */}
       {/* <CounterState/>
       <HookCounterTwo/> */}
       {/* <ClickCounter/>
