@@ -13,11 +13,15 @@ import HookCounterTwo from './components/hooks/HookCounterTwo';
 import HookCounterThree from './components/hooks/HookCounterThree';
 import Data from './components/effect/Data';
 import User from './components/effect/user';
+import ComponentA from './components/context/componentA';
+import Person from './components/context/contextHook/Pesron';
 
 function App() {
   return (
     <div className="App">
-      <User/>
+      <Person/>
+      {/* <ComponentA/> */}
+      {/* <User/> */}
       {/* <Data/> */}
       {/* <HookCounterThree/> */}
       {/* <CounterState/>
